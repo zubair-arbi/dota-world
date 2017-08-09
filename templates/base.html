@@ -1,0 +1,59 @@
+{% load i18n %}
+{% load staticfiles %}
+{% load bootstrap3 %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{ site.name }} | {% block head_title %}{% endblock %}</title>
+
+    <link href="{% static 'favicon.ico' %}" rel="icon" type="image/x-icon"/>
+
+    {% block extra_head %}{% endblock %}
+</head>
+
+<body>
+{% if messages %}
+    {% for message in messages %}
+        <div class="message">
+            <p class="alert alert-{{ message.tags }} site-msg">
+                {{ message }}
+                <a href="#" class="del-msg pull-right"><i class="fa fa-lg fa-times"></i></a>
+            </p>
+        </div>
+    {% endfor %}
+{% endif %}
+
+{% block body %}
+    <div id="wrapper">
+
+        <!-- Navigation -->
+
+        <div id="page-wrapper">
+
+            {% block page-wrapper %}{% endblock %}
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+{% endblock %}
+
+<!-- jQuery -->
+<script type="text/javascript">
+</script>
+
+{% block extra-page-javascript %}{% endblock %}
+</body>
+
+</html>

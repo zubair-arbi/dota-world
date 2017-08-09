@@ -1,0 +1,20 @@
+boto==2.48.0
+dj-database-url==0.4.2
+dj-static==0.0.6
+Django==1.11.4
+django-annoying==0.10.3
+django-bootstrap3==9.0.0
+django-ses==0.8.2
+django-user-accounts==2.0.3
+gunicorn==19.7.1
+Pillow==4.2.1
+psycopg2==2.7.3
+pudb==2017.1.2
+pystache==0.5.4
+pytz==2017.2
+requests==2.18.3
+static==1.1.1
+static3==0.7.0
+whitenoise==3.3.0
+
+# npm install -g less
