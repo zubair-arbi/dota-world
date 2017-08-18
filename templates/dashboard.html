@@ -1,24 +1,23 @@
 {% extends "base.html" %}
 
-{% load account_tags %}
-{% load bootstrap3 %}
 {% load i18n %}
 
 {% block head_title %}{% trans "Dashboard" %}{% endblock %}
 
 {% block extra_head %}{% endblock %}
 
-{% block page-wrapper %}
-<div>
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">{% trans "Dota World - Dashboard" %}</h1>
+{% block content-wrapper %}
+    <div class="container">
 
-            <p>{% trans "Welcome to Dota Wrold" %}</p>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">{% trans "Dota World - Dashboard" %}</h1>
+
+                <p>{% trans "Welcome to Dota Wrold" %}</p>
+            </div>
+            <!-- /.col-lg-12 -->
         </div>
-        <!-- /.col-lg-12 -->
-    </div>
-    <!-- /.row -->
+        <!-- /.row -->
 
-</div>
+    </div>
 {% endblock %}

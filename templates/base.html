@@ -1,5 +1,5 @@
 {% load i18n %}
-{% load staticfiles %}
+{% load static %}
 {% load bootstrap3 %}
 
 
@@ -10,13 +10,24 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>{{ site.name }} | {% block head_title %}{% endblock %}</title>
 
     <link href="{% static 'favicon.ico' %}" rel="icon" type="image/x-icon"/>
+
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/lightbox.css' %}" rel="stylesheet">
+	<link href="{% static 'css/main.css' %}" rel="stylesheet">
+	<link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+    <!--[if lt IE 9]>
+	    <script src="{% static 'js/html5shiv.js' %}"></script>
+	    <script src="{% static 'js/respond.min.js' %}"></script>
+    <![endif]-->
 
     {% block extra_head %}{% endblock %}
 </head>
@@ -34,26 +45,128 @@
 {% endif %}
 
 {% block body %}
-    <div id="wrapper">
 
-        <!-- Navigation -->
-
-        <div id="page-wrapper">
-
-            {% block page-wrapper %}{% endblock %}
-
+    <!-- Navigation -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 overflow">
+                   <div class="social-icons pull-right">
+                        <ul class="nav nav-pills">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
         </div>
-        <!-- /#page-wrapper -->
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-    </div>
-    <!-- /#wrapper -->
+                    <a class="navbar-brand" href="index.html">
+                        <h1><img src="{% static 'images/logo.png' %}" alt="logo"></h1>
+                    </a>
+
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="dropdown"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="aboutus.html">About</a></li>
+                                <li><a href="aboutus2.html">About 2</a></li>
+                                <li><a href="service.html">Services</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                                <li><a href="contact2.html">Contact us 2</a></li>
+                                <li><a href="404.html">404 error</a></li>
+                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="blog.html">Blog Default</a></li>
+                                <li><a href="blogtwo.html">Timeline Blog</a></li>
+                                <li><a href="blogone.html">2 Columns + Right Sidebar</a></li>
+                                <li><a href="blogthree.html">1 Column + Left Sidebar</a></li>
+                                <li><a href="blogfour.html">Blog Masonary</a></li>
+                                <li><a href="blogdetails.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="portfolio.html">Portfolio <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="portfolio.html">Portfolio Default</a></li>
+                                <li><a href="portfoliofour.html">Isotope 3 Columns + Right Sidebar</a></li>
+                                <li><a href="portfolioone.html">3 Columns + Right Sidebar</a></li>
+                                <li><a href="portfoliotwo.html">3 Columns + Left Sidebar</a></li>
+                                <li><a href="portfoliothree.html">2 Columns</a></li>
+                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="shortcodes.html ">Shortcodes</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <form role="form">
+                        <i class="fa fa-search"></i>
+                        <div class="field-toggle">
+                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/#header-->
+
+    <section id="home-slider">
+        <div class="container">
+            <div class="row">
+                <div class="main-slider">
+                    <div class="slide-text">
+                        <h1>We Are Creative Nerds</h1>
+                        <p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
+                        <a href="#" class="btn btn-common">SIGN UP</a>
+                    </div>
+                    <img src="{% static 'images/home/slider/hill.png' %}" class="slider-hill" alt="slider image">
+                    <img src="{% static 'images/home/slider/house.png' %}" class="slider-house" alt="slider image">
+                    <img src="{% static 'images/home/slider/sun.png' %}" class="slider-sun" alt="slider image">
+                    <img src="{% static 'images/home/slider/birds1.png' %}" class="slider-birds1" alt="slider image">
+                    <img src="{% static 'images/home/slider/birds2.png' %}" class="slider-birds2" alt="slider image">
+                </div>
+            </div>
+        </div>
+        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+    </section>
+    <!--/#home-slider-->
+
+    <section id="services">
+        {% block content-wrapper %}{% endblock %}
+    </section>
+
 {% endblock %}
 
-<!-- jQuery -->
-<script type="text/javascript">
-</script>
+    <!-- jQuery -->
+    <script type="text/javascript">
+    </script>
 
-{% block extra-page-javascript %}{% endblock %}
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/lightbox.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/wow.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+
+    {% block extra-page-javascript %}{% endblock %}
 </body>
 
 </html>
