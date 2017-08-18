@@ -43,6 +43,9 @@ INSTALLED_APPS = [
     'bootstrap3',
     'django_ses',
     'account',
+
+    # Local apps
+    'heros',
 ]
 
 MIDDLEWARE = [

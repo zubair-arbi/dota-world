@@ -4,6 +4,7 @@ dj-static==0.0.6
 Django==1.11.4
 django-annoying==0.10.3
 django-bootstrap3==9.0.0
+django-model-utils==3.0.0
 django-ses==0.8.2
 django-user-accounts==2.0.3
 gunicorn==19.7.1
