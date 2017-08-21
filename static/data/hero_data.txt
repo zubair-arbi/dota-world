@@ -1,0 +1,113 @@
+Ancient Apparition-Intelligence-Ranged-Disabler-Nuker-Support
+Arc Warden-Agility-Ranged-Carry-Escape-Nuker
+Bane-Intelligence-Ranged-Disabler-Durable-Nuker-Support
+Batrider-Intelligence-Ranged-Disabler-Escape-Initiator-Jungler
+Anti Mage-Agility-Melee-Carry-Escape-Nuker
+Abaddon-Strength-Melee-Carry-Durable-Support
+Axe-Strength-Melee-Disabler-Durable-Initiator-Jungler
+Beastmaster-Strength-Melee-Disabler-Durable-Initiator-Nuker
+Bounty Hunter-Agility-Melee-Escape-Nuker
+Bloodseeker-Agility-Melee-Carry-Disabler-Initiator-Jungler-Nuker
+Broodmother-Agility-Melee-Carry-Escape-Nuker-Pusher
+Centaur Warrunner-Strength-Melee-Disabler-Durable-Escape-Initiator-Nuker
+Brewmaster-Strength-Melee-Carry-Disabler-Durable-Initiator-Nuker
+Bristleback-Strength-Melee-Carry-Durable-Initiator-Nuker
+Chaos Knight-Strength-Melee-Carry-Disabler-Durable-Initiator-Pusher
+Chen-Intelligence-Ranged-Jungler-Pusher-Support
+Clinkz-Agility-Ranged-Carry-Escape-Pusher
+Death Prophet-Intelligence-Ranged-Carry-Disabler-Nuker-Pusher
+Clockwerk-Strength-Melee-Disabler-Durable-Initiator-Nuker
+Crystal Maiden-Intelligence-Ranged-Disabler-Jungler-Nuker-Support
+Dark Seer-Intelligence-Melee-Disabler-Escape-Initiator-Jungler
+Doom-Strength-Melee-Carry-Disabler-Durable-Initiator-Nuker
+Disruptor-Intelligence-Ranged-Disabler-Initiator-Nuker-Support
+Dazzle-Intelligence-Ranged-Disabler-Nuker-Support
+Dragon Knight-Strength-Melee-Carry-Disabler-Durable-Initiator-Nuker-Pusher
+Drow Ranger-Agility-Ranged-Carry-Disabler-Pusher
+Elder Titan-Strength-Melee-Disabler-Durable-Initiator-Nuker
+Enigma-Intelligence-Ranged-Disabler-Initiator-Jungler-Pusher
+Earthshaker-Strength-Melee-Disabler-Initiator-Nuker-Support
+Enchantress-Intelligence-Ranged-Disabler-Durable-Jungler-Pusher-Support
+Faceless Void-Agility-Melee-Carry-Disabler-Durable-Escape-Initiator
+Gyrocopter-Agility-Ranged-Carry-Disabler-Nuker
+Huskar-Strength-Ranged-Carry-Durable-Initiator
+Earth Spirit-Strength-Melee-Disabler-Durable-Escape-Initiator-Nuker
+Alchemist-Strength-Melee-Carry-Disabler-Durable-Initiator-Nuker-Support
+Invoker-Intelligence-Ranged-Carry-Disabler-Escape-Nuker-Pusher
+Io-Strength-Ranged-Escape-Nuker-Support
+Jakiro-Intelligence-Ranged-Disabler-Nuker-Pusher-Support
+Juggernaut-Agility-Melee-Carry-Escape-Pusher
+Keeper of the Light-Intelligence-Ranged-Disabler-Jungler-Nuker-Support
+Kunkka-Strength-Melee-Carry-Disabler-Durable-Initiator-Nuker
+Legion Commander-Strength-Melee-Carry-Disabler-Durable-Initiator-Nuker
+Ember Spirit-Agility-Melee-Carry-Disabler-Escape-Initiator-Nuker
+Lina-Intelligence-Ranged-Carry-Disabler-Nuker-Support
+Leshrac-Intelligence-Ranged-Carry-Disabler-Nuker-Pusher-Support
+Lion-Intelligence-Ranged-Disabler-Initiator-Nuker-Support
+Lifestealer-Strength-Melee-Carry-Disabler-Durable-Escape-Jungler
+Lich-Intelligence-Ranged-Nuker-Support
+Lone Druid-Agility-Ranged-Carry-Durable-Jungler-Pusher
+Lycan-Strength-Melee-Carry-Durable-Escape-Jungler-Pusher
+Luna-Agility-Ranged-Carry-Nuker-Pusher
+Magnus-Strength-Melee-Disabler-Escape-Initiator-Nuker
+Meepo-Agility-Melee-Carry-Disabler-Escape-Initiator-Nuker-Pusher
+Medusa-Agility-Ranged-Carry-Disabler-Durable
+Mirana-Agility-Ranged-Carry-Disabler-Escape-Nuker-Support
+Morphling-Agility-Ranged-Carry-Disabler-Durable-Escape-Nuker
+Monkey King-Agility-Melee-Carry-Disabler-Escape-Initiator
+Nature's Prophet-Intelligence-Ranged-Carry-Escape-Jungler-Nuker-Pusher
+Naga Siren-Agility-Melee-Carry-Disabler-Escape-Initiator-Pusher-Support
+Necrophos-Intelligence-Ranged-Carry-Disabler-Durable-Nuker
+Night Stalker-Strength-Melee-Carry-Disabler-Durable-Initiator-Nuker
+Nyx Assassin-Agility-Melee-Disabler-Escape-Initiator-Nuker
+Omniknight-Strength-Melee-Durable-Nuker-Support
+Outworld Devourer-Intelligence-Ranged-Carry-Disabler-Nuker
+Ogre Magi-Intelligence-Melee-Disabler-Durable-Initiator-Nuker-Support
+Phoenix-Strength-Ranged-Disabler-Escape-Initiator-Nuker-Support
+Phantom Assassin-Agility-Melee-Carry-Escape
+Phantom Lancer-Agility-Melee-Carry-Escape-Nuker-Pusher
+Oracle-Intelligence-Ranged-Disabler-Escape-Nuker-Support
+Pugna-Intelligence-Ranged-Nuker-Pusher
+Pudge-Strength-Melee-Disabler-Durable-Initiator-Nuker
+Puck-Intelligence-Ranged-Disabler-Escape-Initiator-Nuker
+Queen of Pain-Intelligence-Ranged-Carry-Escape-Nuker
+Razor-Agility-Ranged-Carry-Durable-Nuker-Pusher
+Riki-Agility-Melee-Carry-Disabler-Escape
+Rubick-Intelligence-Ranged-Disabler-Nuker-Support
+Sand King-Strength-Melee-Disabler-Escape-Initiator-Jungler-Nuker
+Shadow Fiend-Agility-Ranged-Carry-Nuker
+Shadow Demon-Intelligence-Ranged-Disabler-Initiator-Nuker-Support
+Silencer-Intelligence-Ranged-Carry-Disabler-Initiator-Nuker-Support
+Skywrath Mage-Intelligence-Ranged-Disabler-Nuker-Support
+Shadow Shaman-Intelligence-Ranged-Disabler-Initiator-Nuker-Pusher-Support
+Slardar-Strength-Melee-Carry-Disabler-Durable-Escape-Initiator
+Slark-Agility-Melee-Carry-Disabler-Escape-Nuker
+Sniper-Agility-Ranged-Carry-Nuker
+Spectre-Agility-Melee-Carry-Durable-Escape
+Sven-Strength-Melee-Carry-Disabler-Durable-Initiator-Nuker
+Spirit Breaker-Strength-Melee-Carry-Disabler-Durable-Escape-Initiator
+Techies-Intelligence-Ranged-Disabler-Nuker
+Storm Spirit-Intelligence-Ranged-Carry-Disabler-Escape-Initiator-Nuker
+Templar Assassin-Agility-Ranged-Carry-Escape
+Terrorblade-Agility-Melee-Carry-Nuker-Pusher
+Tidehunter-Strength-Melee-Disabler-Durable-Initiator-Nuker
+Timbersaw-Strength-Melee-Durable-Escape-Nuker
+Tinker-Intelligence-Ranged-Carry-Nuker-Pusher
+Undying-Strength-Melee-Disabler-Durable-Nuker-Support
+Vengeful Spirit-Agility-Ranged-Disabler-Escape-Initiator-Nuker-Support
+Tusk-Strength-Melee-Disabler-Initiator-Nuker
+Ursa-Agility-Melee-Carry-Disabler-Durable-Jungler
+Troll Warlord-Agility-Ranged-Carry-Disabler-Durable-Pusher
+Tiny-Strength-Melee-Carry-Disabler-Durable-Initiator-Nuker-Pusher
+Venomancer-Agility-Ranged-Disabler-Initiator-Nuker-Pusher-Support
+Viper-Agility-Ranged-Carry-Disabler-Durable-Initiator
+Treant Protector-Strength-Melee-Disabler-Durable-Escape-Initiator-Support
+Warlock-Intelligence-Ranged-Disabler-Initiator-Support
+Windranger-Intelligence-Ranged-Carry-Disabler-Escape-Nuker-Support
+Visage-Intelligence-Ranged-Disabler-Durable-Nuker-Pusher-Support
+Weaver-Agility-Ranged-Carry-Escape
+Underlord-Strength-Melee-Disabler-Durable-Escape-Nuker-Support
+Winter Wyvern-Intelligence-Ranged-Disabler-Nuker-Support
+Witch Doctor-Intelligence-Ranged-Disabler-Nuker-Support
+Wraith King-Strength-Melee-Carry-Disabler-Durable-Initiator-Support
+Zeus-Intelligence-Ranged-Nuker

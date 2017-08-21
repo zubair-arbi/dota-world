@@ -14,7 +14,7 @@ class Hero(TimeStampedModel):
         ('intelligence', 'Intelligence hero'),
     )
     ATTACK_TYPE_CHOICES = (
-        ('malee', 'Malee attack'),
+        ('melee', 'Melee attack'),
         ('ranged', 'Ranged attack'),
     )
 
@@ -38,7 +38,7 @@ class Hero(TimeStampedModel):
         blank=False,
         choices=ATTACK_TYPE_CHOICES,
         help_text=_(
-            'Specify hero attack type from choices, i.e. Malee.'
+            'Specify hero attack type from choices, i.e. Melee.'
         )
     )
 
@@ -49,7 +49,6 @@ class Hero(TimeStampedModel):
 class HeroRole(models.Model):
 
     ROLE_NAME_CHOICES = (
-        ('complexity', 'Complexity'),
         ('carry', 'Carry'),
         ('support', 'Support'),
         ('nuker', 'Nuker'),
@@ -104,5 +103,3 @@ class HeroAdvantage(models.Model):
 
     def __unicode__(self):
         return _(u'{0}-{1}').format(self.hero, self.opponent_hero)
-
-

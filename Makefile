@@ -12,6 +12,7 @@ help:
 	@echo "  serve                      serve Dota World project at 0.0.0.0:4444"
 	@echo "  static                     build and compress static assets"
 	@echo "  clean_static               delete compiled/compressed static assets"
+	@echo "  update_heros                Update the Hero app models from pre-formatted data files"
 	@echo ""
 
 clean:
@@ -31,3 +32,6 @@ serve:
 
 migrate:
 	python manage.py migrate
+
+update_heros:
+	python manage.py update_hero_models
