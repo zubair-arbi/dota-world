@@ -24,6 +24,8 @@
     <link href="{% static 'css/lightbox.css' %}" rel="stylesheet">
 	<link href="{% static 'css/main.css' %}" rel="stylesheet">
 	<link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+	<link href="{% static 'css/project_extra.css' %}" rel="stylesheet">
+
     <!--[if lt IE 9]>
 	    <script src="{% static 'js/html5shiv.js' %}"></script>
 	    <script src="{% static 'js/respond.min.js' %}"></script>
@@ -73,86 +75,38 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="index.html">
-                        <h1><img src="{% static 'images/logo.png' %}" alt="logo"></h1>
+                    <a class="navbar-brand" href="/">
+                        <h1>
+                            <img class="logo" src="{% static 'images/dota/logo.png' %}" alt="logo">
+                            {{ site.name }}
+                        </h1>
                     </a>
 
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li class="dropdown"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="aboutus.html">About</a></li>
-                                <li><a href="aboutus2.html">About 2</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
-                                <li><a href="contact2.html">Contact us 2</a></li>
-                                <li><a href="404.html">404 error</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="blog.html">Blog Default</a></li>
-                                <li><a href="blogtwo.html">Timeline Blog</a></li>
-                                <li><a href="blogone.html">2 Columns + Right Sidebar</a></li>
-                                <li><a href="blogthree.html">1 Column + Left Sidebar</a></li>
-                                <li><a href="blogfour.html">Blog Masonary</a></li>
-                                <li><a href="blogdetails.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"><a href="portfolio.html">Portfolio <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="portfolio.html">Portfolio Default</a></li>
-                                <li><a href="portfoliofour.html">Isotope 3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfolioone.html">3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfoliotwo.html">3 Columns + Left Sidebar</a></li>
-                                <li><a href="portfoliothree.html">2 Columns</a></li>
-                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="shortcodes.html ">Shortcodes</a></li>
+                        <li class="active"><a href="{% url 'view_heros' %}">{% trans "Heros" %}</a></li>
                     </ul>
-                </div>
-                <div class="search">
-                    <form role="form">
-                        <i class="fa fa-search"></i>
-                        <div class="field-toggle">
-                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
     </header>
     <!--/#header-->
 
-    <section id="home-slider">
+    {% block content-wrapper %}{% endblock %}
+
+    <footer id="footer" class="ft">
         <div class="container">
             <div class="row">
-                <div class="main-slider">
-                    <div class="slide-text">
-                        <h1>We Are Creative Nerds</h1>
-                        <p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
-                        <a href="#" class="btn btn-common">SIGN UP</a>
+                <div class="col-sm-12">
+                    <div class="copyright-text text-center">
+                        <p>&copy; {{ site.name }} {% now "Y" %}. {% trans "All Rights Reserved" %}.</p>
                     </div>
-                    <img src="{% static 'images/home/slider/hill.png' %}" class="slider-hill" alt="slider image">
-                    <img src="{% static 'images/home/slider/house.png' %}" class="slider-house" alt="slider image">
-                    <img src="{% static 'images/home/slider/sun.png' %}" class="slider-sun" alt="slider image">
-                    <img src="{% static 'images/home/slider/birds1.png' %}" class="slider-birds1" alt="slider image">
-                    <img src="{% static 'images/home/slider/birds2.png' %}" class="slider-birds2" alt="slider image">
                 </div>
             </div>
         </div>
-        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
-    </section>
-    <!--/#home-slider-->
-
-    <section id="services">
-        {% block content-wrapper %}{% endblock %}
-    </section>
+    </footer>
+    <!--/#footer-->
 
 {% endblock %}
 
