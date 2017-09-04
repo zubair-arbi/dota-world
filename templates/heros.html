@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+{% load static %}
+
+{% block head_title %}{% trans "Heros" %}{% endblock %}
+
+{% block extra_head %}{% endblock %}
+
+{% block content-wrapper %}
+    <section id="heros">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-sm-12">
+                        {% for heros_group, heros_group_data in heros_data.items %}
+                            <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <h1 class="title">
+                                    <img src="{% static 'images/dota/hero_' %}{{ heros_group }}.png" class="img-responsive background-round-black" alt="{{ heros_group }}">
+                                    {{ heros_group|title }}
+                                </h1>
+                            </div>
+                            <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                                {% for hero in heros_group_data.heros %}
+                                    <div class="col-xs-2 col-sm-1 height-125">
+                                        <a href="#"><img src="{{ hero.photo.url }}" class="img-responsive hero-thumbnail" alt="{{ hero.name }}"></a>
+                                        <p>{{ hero.name }}</p>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+
+        </div>
+    </section>
+{% endblock %}
