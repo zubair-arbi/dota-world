@@ -1,23 +1,47 @@
 {% extends "base.html" %}
 
 {% load i18n %}
+{% load static %}
 
 {% block head_title %}{% trans "Dashboard" %}{% endblock %}
 
 {% block extra_head %}{% endblock %}
 
 {% block content-wrapper %}
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">{% trans "Dota World - Dashboard" %}</h1>
-
-                <p>{% trans "Welcome to Dota Wrold" %}</p>
+    <section id="home-slider">
+        <div class="container">
+            <div class="row">
+                <div class="main-slider">
+                    <div class="slide-text">
+                        <h1>We Are Creative Nerds</h1>
+                        <p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
+                        <a href="#" class="btn btn-common">SIGN UP</a>
+                    </div>
+                    <img src="{% static 'images/home/slider/hill.png' %}" class="slider-hill" alt="slider image">
+                    <img src="{% static 'images/home/slider/house.png' %}" class="slider-house" alt="slider image">
+                    <img src="{% static 'images/home/slider/sun.png' %}" class="slider-sun" alt="slider image">
+                    <img src="{% static 'images/home/slider/birds1.png' %}" class="slider-birds1" alt="slider image">
+                    <img src="{% static 'images/home/slider/birds2.png' %}" class="slider-birds2" alt="slider image">
+                </div>
             </div>
-            <!-- /.col-lg-12 -->
         </div>
-        <!-- /.row -->
+        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+    </section>
+    <!--/#home-slider-->
 
-    </div>
+    <section id="services">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">{% trans "Dota World - Dashboard" %}</h1>
+
+                    <p>{% trans "Welcome to Dota Wrold" %}</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+
+        </div>
+    </section>
 {% endblock %}

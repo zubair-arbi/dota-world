@@ -27,6 +27,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 
     url(r'^$', views.index, name='index'),
+    url(r'^heros/', include('heros.urls')),
 ]
 
 # Add media and extra urls
