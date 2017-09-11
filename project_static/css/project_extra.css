@@ -6,6 +6,21 @@
     height: 125px;
 }
 
+.team-logo {
+    height: 50px;
+}
+
+.row-centered {
+  text-align: center;
+  display: table-row;
+}
+
+.col-centered {
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+}
+
 .background-round-black {
     border-radius: 25px;
     background-color: #1C242D;
