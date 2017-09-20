@@ -17,7 +17,7 @@ class Command(BaseCommand):
         with open(data_file, 'r') as heros_data:
             for hero_data_line in heros_data:
                 # Example hero data line : 'Anti Mage-Agility-Melee-Carry-Escape-Nuker/n'
-                unpacked_hero_data = hero_data_line.strip().split('-')
+                unpacked_hero_data = hero_data_line.strip().split('|')
                 Hero.objects.create(
                     name=unpacked_hero_data[0],
                     category=unpacked_hero_data[1].lower(),
@@ -28,7 +28,7 @@ class Command(BaseCommand):
     def update_hero_role_models(self, data_file):
         with open(data_file, 'r') as heros_data:
             for hero_data_line in heros_data:
-                unpacked_hero_data = hero_data_line.strip().split('-')
+                unpacked_hero_data = hero_data_line.strip().split('|')
                 hero = Hero.objects.get(name=unpacked_hero_data[0])
                 for role in unpacked_hero_data[3:]:
                     HeroRole.objects.create(hero=hero, role=role.lower())
